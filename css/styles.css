@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #384187;
+}
+
+h3 {
+    color: #384187;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+input,button {
+    width: 90%;
+}
+
+input {
+    padding: 12px;
+    outline: none;
+    color: #384187;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #384187;
+}
+
+button {
+    border: none;
+    padding: 12px;
+    outline: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #384187;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #353B6D;
+}
